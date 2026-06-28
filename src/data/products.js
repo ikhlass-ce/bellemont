@@ -1273,43 +1273,93 @@ const rawProducts = [
 
   // ACCESSORIES
   {
-    id: "verona-sunglasses",
-    name: "Verona Acetate Sunglasses",
-    price: 75,
+    id: "burker-gold-burgundy-watch",
+    name: "Burker Signature Gold & Burgundy Watch",
+    price: 195,
     category: "accessories",
-    description: "Oversized cat-eye sunglasses crafted from premium Italian tortoiseshell acetate. Features dark brown polarized lenses with 100% UVA/UVB protection. Completed with subtle gold logo lettering at the temples.",
-    color: "Tortoiseshell Gold",
+    description: "An elegant, vintage-inspired timepiece featuring a signature rectangular case with a deep burgundy sunray dial. Complete with a polished gold link bracelet and a matching gold cuff. A true classic designed for sophisticated daily wear.",
+    color: "Gold & Burgundy",
     colors: [
-      { name: "Tortoiseshell Gold", hex: "#4a3c31" },
-      { name: "Classic Black", hex: "#111111" }
+      { name: "Gold & Burgundy", hex: "#800020" }
     ],
-    sizes: ["One Size"],
+    sizes: ["One Size (Adjustable)"],
     images: [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=1000&q=80",
-      "/assets/luxury_accessory.png"
+      "/assets/accessory_gold_watch_burgundy.jpg"
     ],
-    fabricInfo: "Handcrafted Acetate Frame. Sturdy 5-barrel hinges. Includes velvet pouch.",
+    fabricInfo: "18k Gold-Plated Stainless Steel. Japanese Quartz movement. 3ATM Water Resistant.",
+    rating: 4.9,
+    reviews: []
+  },
+  {
+    id: "aurelia-double-snake-necklace",
+    name: "Aurelia Double Layer Snake Necklace",
+    price: 95,
+    category: "accessories",
+    description: "A minimalist double-layered necklace featuring a thick flat herringbone snake chain and a delicate companion rope chain. Designed to sit perfectly on the collarbone, adding a sleek gold accent to linen shirting and silk dresses.",
+    color: "Gold",
+    colors: [
+      { name: "Gold", hex: "#d4af37" }
+    ],
+    sizes: ["One Size (16\" + 18\" with 2\" extender)"],
+    images: [
+      "/assets/accessory_gold_snake_necklace.jpg"
+    ],
+    fabricInfo: "18k Gold Plated Sterling Silver. Lead and nickel free.",
     rating: 4.8,
     reviews: []
   },
   {
-    id: "amalfi-hoops",
-    name: "Amalfi Ribbed Gold Hoops",
-    price: 65,
+    id: "meyear-vintage-octagon-watch",
+    name: "Meyear Vintage Octagon Watch",
+    price: 220,
     category: "accessories",
-    description: "Thick, textured gold hoop earrings inspired by vintage Roman jewelry. Very lightweight, hollowed structure ensures comfortable wear. Ideal for finishing a linen suit ensemble.",
+    description: "An exquisite rose gold/gold timepiece crafted with an octagonal face, mineral glass, and a deep matte black dial featuring delicate crystal indices. Fitted with a unique chunky rectangular link bracelet.",
+    color: "Rose Gold",
+    colors: [
+      { name: "Rose Gold", hex: "#b76e79" }
+    ],
+    sizes: ["One Size (Adjustable)"],
+    images: [
+      "/assets/accessory_gold_watch_black.jpg"
+    ],
+    fabricInfo: "18k Rose Gold-Plated Stainless Steel. Premium Quartz movement.",
+    rating: 4.9,
+    reviews: []
+  },
+  {
+    id: "monaco-rectangular-sunglasses",
+    name: "Monaco Rectangular Sunglasses",
+    price: 110,
+    category: "accessories",
+    description: "A bold yet classic rectangular silhouette crafted from thick, polished black bio-acetate. Outfitted with solid black lenses providing 100% UVA/UVB protection. The ultimate statement accessory for quiet luxury.",
+    color: "Classic Black",
+    colors: [
+      { name: "Classic Black", hex: "#111111" }
+    ],
+    sizes: ["One Size"],
+    images: [
+      "/assets/accessory_black_sunglasses.jpg"
+    ],
+    fabricInfo: "Handcrafted Bio-Acetate Frame. Scratch-resistant CR-39 lenses.",
+    rating: 4.7,
+    reviews: []
+  },
+  {
+    id: "la-maison-gold-bangle-set",
+    name: "La Maison Gold Bangle Set",
+    price: 145,
+    category: "accessories",
+    description: "A curated set of handcrafted 18k gold plated bangles, featuring a mix of fluid organic wavy bands, sleek minimalist cuffs, double-band stacked bangles, and delicate beaded designs.",
     color: "Gold",
     colors: [
-      { name: "Gold", hex: "#d4af37" },
-      { name: "Silver", hex: "#c0c0c0" }
+      { name: "Gold", hex: "#d4af37" }
     ],
-    sizes: ["One Size (30mm diameter)"],
+    sizes: ["One Size (Malleable/Adjustable)"],
     images: [
-      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1000&q=80",
-      "/assets/luxury_accessory.png"
+      "/assets/accessory_gold_bracelets_tray.jpg"
     ],
-    fabricInfo: "18k Gold Plated Brass. Hypoallergenic, nickel-free.",
-    rating: 4.9,
+    fabricInfo: "18k Gold Plated Brass. High polish finish. Anti-tarnish coating.",
+    rating: 5.0,
     reviews: []
   }
 ];
