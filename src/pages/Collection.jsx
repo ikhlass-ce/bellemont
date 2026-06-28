@@ -198,7 +198,7 @@ const Collection = () => {
       <section className="relative w-full h-[500px] sm:h-[600px] overflow-hidden border-b border-luxury-border flex items-center justify-center bg-white">
         {/* Main Hero Image */}
         <img 
-          src={details.banner} 
+          src={details.banner.startsWith('/') ? `${import.meta.env.BASE_URL}${details.banner.slice(1)}` : details.banner} 
           alt={details.title}
           style={{
             width: '100%',

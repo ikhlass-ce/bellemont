@@ -88,8 +88,8 @@ const Home = () => {
     "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=600&q=80",
     "https://images.unsplash.com/photo-1498804103079-a6351b050096?w=600&q=80",
     "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=600&q=80",
-    "/assets/hero_editorial.png",
-    "/assets/collection_summer.png"
+    `${import.meta.env.BASE_URL}assets/hero_editorial.png`,
+    `${import.meta.env.BASE_URL}assets/collection_summer.png`
   ];
 
   return (
@@ -103,7 +103,7 @@ const Home = () => {
         {/* Full-screen Background Video */}
         <video 
           ref={videoRef}
-          src="/assets/campaign_video.mp4" 
+          src={`${import.meta.env.BASE_URL}assets/campaign_video.mp4`} 
           autoPlay 
           loop 
           muted 
@@ -162,7 +162,7 @@ const Home = () => {
             {/* Women */}
             <div className="flex items-center space-x-4 text-left border-r border-white/5 last:border-0 pr-4">
               <div className="w-14 h-18 bg-luxury-grey-dark rounded overflow-hidden flex-shrink-0 border border-white/10">
-                <img src="/assets/collection_summer.png" alt="Women collection" className="w-full h-full object-cover" />
+                <img src={`${import.meta.env.BASE_URL}assets/collection_summer.png`} alt="Women collection" className="w-full h-full object-cover" />
               </div>
               <div className="space-y-1">
                 <h4 className="text-[11px] tracking-widest uppercase font-semibold text-white">Women</h4>
@@ -178,7 +178,7 @@ const Home = () => {
             {/* Dresses */}
             <div className="flex items-center space-x-4 text-left border-r border-white/5 last:border-0 pr-4">
               <div className="w-14 h-18 bg-luxury-grey-dark rounded overflow-hidden flex-shrink-0 border border-white/10">
-                <img src="/assets/dress_white_surf.jpg" alt="Dresses collection" className="w-full h-full object-cover" />
+                <img src={`${import.meta.env.BASE_URL}assets/dress_white_surf.jpg`} alt="Dresses collection" className="w-full h-full object-cover" />
               </div>
               <div className="space-y-1">
                 <h4 className="text-[11px] tracking-widest uppercase font-semibold text-white">Dresses</h4>
@@ -194,7 +194,7 @@ const Home = () => {
             {/* Hijabs */}
             <div className="flex items-center space-x-4 text-left border-r border-white/5 last:border-0 pr-4">
               <div className="w-14 h-18 bg-luxury-grey-dark rounded overflow-hidden flex-shrink-0 border border-white/10">
-                <img src="/assets/silk_scarf.png" alt="Hijabs collection" className="w-full h-full object-cover" />
+                <img src={`${import.meta.env.BASE_URL}assets/silk_scarf.png`} alt="Hijabs collection" className="w-full h-full object-cover" />
               </div>
               <div className="space-y-1">
                 <h4 className="text-[11px] tracking-widest uppercase font-semibold text-white">Hijabs</h4>
@@ -210,7 +210,7 @@ const Home = () => {
             {/* Bags */}
             <div className="flex items-center space-x-4 text-left pr-4">
               <div className="w-14 h-18 bg-luxury-grey-dark rounded overflow-hidden flex-shrink-0 border border-white/10">
-                <img src="/assets/luxury_accessory.png" alt="Bags collection" className="w-full h-full object-cover" />
+                <img src={`${import.meta.env.BASE_URL}assets/luxury_accessory.png`} alt="Bags collection" className="w-full h-full object-cover" />
               </div>
               <div className="space-y-1">
                 <h4 className="text-[11px] tracking-widest uppercase font-semibold text-white">Bags</h4>
@@ -251,7 +251,7 @@ const Home = () => {
           {/* Right: Large portrait image */}
           <div className="w-full md:w-1/2 aspect-[4/5] bg-luxury-grey-light rounded overflow-hidden shadow-xl border border-luxury-border">
             <img 
-              src="/assets/dress_white_yacht.jpg" 
+              src={`${import.meta.env.BASE_URL}assets/dress_white_yacht.jpg`} 
               alt="Model posing in White Yacht Dress" 
               className="w-full h-full object-cover transition-transform duration-1000 hover:scale-[1.02]"
             />

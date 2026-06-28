@@ -1,4 +1,4 @@
-export const products = [
+const rawProducts = [
   // DRESSES
   {
     id: "bologna-dress",
@@ -1313,6 +1313,13 @@ export const products = [
     reviews: []
   }
 ];
+
+const baseUrl = import.meta.env.BASE_URL || '/';
+
+export const products = rawProducts.map(p => ({
+  ...p,
+  images: p.images.map(img => img.startsWith('/') ? `${baseUrl}${img.slice(1)}` : img)
+}));
 
 export const getProductsByCategory = (categorySlug) => {
   return products.filter(p => p.category === categorySlug);
