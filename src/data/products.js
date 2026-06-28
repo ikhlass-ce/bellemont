@@ -1451,6 +1451,96 @@ const rawProducts = [
     fabricInfo: "18k Gold Plated Brass. Sterling silver posts (hypoallergenic).",
     rating: 4.9,
     reviews: []
+  },
+  {
+    id: "sienna-wavy-hoop-earrings",
+    name: "Sienna Wavy Hoop Earrings",
+    price: 60,
+    category: "accessories",
+    description: "Abstract, fluid hollow hoop earrings crafted in a beautiful wavy loop design. Features a highly polished gold surface that catches the light elegantly.",
+    color: "Gold",
+    colors: [
+      { name: "Gold", hex: "#d4af37" }
+    ],
+    sizes: ["One Size"],
+    images: [
+      "/assets/accessory_wavy_gold_hoops.jpg"
+    ],
+    fabricInfo: "18k Gold Plated Brass. Light hollow construct.",
+    rating: 4.8,
+    reviews: []
+  },
+  {
+    id: "la-maison-gold-ring-set",
+    name: "La Maison Gold Ring Set",
+    price: 75,
+    category: "accessories",
+    description: "A curated tray of 8 minimalist gold rings featuring varying silhouettes: chunky dome shapes, organic wavy bands, double band rings, and classic polished stackers.",
+    color: "Gold",
+    colors: [
+      { name: "Gold", hex: "#d4af37" }
+    ],
+    sizes: ["Set of 8 (Sizes 6, 7, and 8 included)"],
+    images: [
+      "/assets/accessory_minimalist_gold_rings.jpg"
+    ],
+    fabricInfo: "18k Gold Plated Brass. Smooth high-polish finish.",
+    rating: 4.9,
+    reviews: []
+  },
+  {
+    id: "verona-herringbone-snake-chain",
+    name: "Verona Herringbone Snake Chain",
+    price: 70,
+    category: "accessories",
+    description: "A classic, sleek flat herringbone snake chain necklace. Lays flat against the collarbone, offering a radiant gold sheen that elevates any styling.",
+    color: "Gold",
+    colors: [
+      { name: "Gold", hex: "#d4af37" }
+    ],
+    sizes: ["One Size (16\" with 2\" extender)"],
+    images: [
+      "/assets/accessory_single_snake_necklace.jpg"
+    ],
+    fabricInfo: "18k Gold Plated Stainless Steel. Tarnish-free.",
+    rating: 4.9,
+    reviews: []
+  },
+  {
+    id: "amalfi-geometric-wire-sunglasses",
+    name: "Amalfi Geometric Wire Sunglasses",
+    price: 115,
+    category: "accessories",
+    description: "Vintage-inspired geometric cat-eye sunglasses with ultra-thin gold-toned metal frames. Complete with dark grey polarized lenses and adjustable nose pads for premium comfort.",
+    color: "Gold & Dark Grey",
+    colors: [
+      { name: "Gold & Dark Grey", hex: "#111111" }
+    ],
+    sizes: ["One Size"],
+    images: [
+      "/assets/accessory_geometric_wire_sunglasses.jpg"
+    ],
+    fabricInfo: "Metal Alloy Frame. Polarized scratch-resistant lenses.",
+    rating: 4.7,
+    reviews: []
+  },
+  {
+    id: "parisienne-cat-eye-optical-glasses",
+    name: "Parisienne Cat-Eye Optical Glasses",
+    price: 95,
+    category: "accessories",
+    description: "Chic retro-inspired cat-eye optical frames in a sleek, polished black finish. Features clear lenses with blue-light filtering technology, perfect for daily screen use.",
+    color: "Classic Black",
+    colors: [
+      { name: "Classic Black", hex: "#111111" }
+    ],
+    sizes: ["One Size"],
+    images: [
+      "/assets/accessory_cat_eye_optical_glasses.jpg"
+    ],
+    fabricInfo: "Premium Acetate Frame. Blue-light filtering clear lenses.",
+    rating: 4.8,
+    reviews: []
   }
 ];
 
