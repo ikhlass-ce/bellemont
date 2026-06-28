@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Poppins:wght@200;300;400;500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", "Poppins", sans-serif;
+  
+  --color-luxury-black: #050505;
+  --color-luxury-dark: #0a0a0a;
+  --color-luxury-white: #ffffff;
+  --color-luxury-ivory: #fafaf7;
+  --color-luxury-beige: #f6f5f0;
+  --color-luxury-gold: #b39974;
+  --color-luxury-gold-dark: #967f5c;
+  --color-luxury-grey-dark: #2a2a2a;
+  --color-luxury-grey: #6c6c6c;
+  --color-luxury-grey-light: #f5f5f5;
+  --color-luxury-border: #eaeaea;
+  
+  --animate-fade-up: fade-up 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-fade-in: fade-in 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-scale-up: scale-up 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scale-up {
+  from {
+    opacity: 0;
+    transform: scale(1.03);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Base Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Pure white background */
+  color: #050505; /* Pure black text */
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+/* Custom Scrollbar - Minimal */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #0a0a0a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6c6c6c;
+}
+
+/* Lenis Smooth Scroll Configuration */
+html.lenis, html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overflow: clip;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Editorial Typography */
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Giant background typography style */
+.hero-bg-text {
+  font-size: 15vw;
+  font-weight: 800;
+  line-height: 0.75;
+  letter-spacing: 0.15em;
+  color: #f3f3f0; /* very light grey-beige shadow */
+  user-select: none;
+  pointer-events: none;
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+}
+
+/* Luxury minimal buttons */
+.luxury-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 2.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 1px solid #050505;
+  background-color: transparent;
+  color: #050505;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.luxury-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #050505;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: -1;
+}
+
+.luxury-btn:hover {
+  color: #ffffff;
+  border-color: #050505;
+}
+
+.luxury-btn:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.luxury-btn-alt {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.9rem 2.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: 1px solid #050505;
+  background-color: #050505;
+  color: #ffffff;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.luxury-btn-alt::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: -1;
+}
+
+.luxury-btn-alt:hover {
+  color: #050505;
+  border-color: #050505;
+}
+
+.luxury-btn-alt:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.luxury-link {
+  position: relative;
+  display: inline-block;
+}
+
+.luxury-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Rounded luxury cards */
+.luxury-card {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Glassmorphism main menu bar */
+.luxury-glass {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(5, 5, 5, 0.05);
+}
+
+/* Hide scrollbars but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
