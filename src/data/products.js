@@ -1541,6 +1541,79 @@ const rawProducts = [
     fabricInfo: "Premium Acetate Frame. Blue-light filtering clear lenses.",
     rating: 4.8,
     reviews: []
+  },
+  {
+    id: "la-rive-ribbon-chain-watch",
+    name: "La Rive Ribbon Chain Watch",
+    price: 240,
+    category: "accessories",
+    description: "An iconic rectangular timepiece featuring a black minimalist dial and a gold-toned chain-link bracelet interwoven with black leather ribbon. The ultimate symbol of Parisienne high-fashion chic.",
+    color: "Gold & Black",
+    colors: [
+      { name: "Gold & Black", hex: "#111111" }
+    ],
+    sizes: ["One Size (7\" length)"],
+    images: [
+      "/assets/accessory_chanel_premiere_watch.jpg"
+    ],
+    fabricInfo: "18k Gold Plated Brass. Genuine leather ribbon weave. Japanese Quartz movement.",
+    rating: 4.9,
+    reviews: []
+  },
+  {
+    id: "celeste-crochet-star-bandana",
+    name: "Celeste Crochet Star Bandana",
+    price: 48,
+    category: "accessories",
+    description: "A romantic, bohemian-style grey crochet hair bandana featuring delicate, dangling gold-plated star pendants along the borders. Adds a dreamy, cosmic charm to summer hair.",
+    color: "Heather Grey",
+    colors: [
+      { name: "Heather Grey", hex: "#d3d3d3" }
+    ],
+    sizes: ["One Size (Tie closure)"],
+    images: [
+      "/assets/accessory_crochet_star_bandana.jpg"
+    ],
+    fabricInfo: "100% Organic soft cotton thread. Gold-plated alloy star charms.",
+    rating: 4.8,
+    reviews: []
+  },
+  {
+    id: "champs-elysees-oval-glasses",
+    name: "Champs-Élysées Oval Glasses",
+    price: 88,
+    category: "accessories",
+    description: "Elegant oval optical frames featuring a polished retro-inspired silhouette. Ideal for adding a sophisticated, literary edge to your smart-casual look. Available in classic black or translucent brown.",
+    color: "Glossy Black",
+    colors: [
+      { name: "Glossy Black", hex: "#111111" },
+      { name: "Translucent Brown", hex: "#8b5a2b" }
+    ],
+    sizes: ["One Size"],
+    images: [
+      "/assets/accessory_oval_optical_glasses.jpg"
+    ],
+    fabricInfo: "High-quality cellulose acetate frame. Clear blue-light filtering lenses.",
+    rating: 4.7,
+    reviews: []
+  },
+  {
+    id: "sienne-crossed-metal-claw-clip",
+    name: "Sienne Crossed Metal Claw Clip",
+    price: 35,
+    category: "accessories",
+    description: "A minimalist gold-toned metal claw clip featuring a crossed-ribbon geometry. Designed for a secure hold on all hair types while offering a polished, sleek profile.",
+    color: "Gold",
+    colors: [
+      { name: "Gold", hex: "#d4af37" }
+    ],
+    sizes: ["One Size (Medium-Large)"],
+    images: [
+      "/assets/accessory_crossed_claw_clip.jpg"
+    ],
+    fabricInfo: "Polished gold-plated zinc alloy frame. Reinforced spring.",
+    rating: 4.9,
+    reviews: []
   }
 ];
 
