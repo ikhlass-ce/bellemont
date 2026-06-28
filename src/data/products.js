@@ -1361,6 +1361,96 @@ const rawProducts = [
     fabricInfo: "18k Gold Plated Brass. High polish finish. Anti-tarnish coating.",
     rating: 5.0,
     reviews: []
+  },
+  {
+    id: "athena-layered-coin-necklace",
+    name: "Athena Layered Coin Necklace",
+    price: 115,
+    category: "accessories",
+    description: "A striking multi-layered necklace set featuring a flat snake chain, a classic twisted rope chain, and two gold coin pendants. It exudes ancient European summer vibes and old-money elegance.",
+    color: "Gold",
+    colors: [
+      { name: "Gold", hex: "#d4af37" }
+    ],
+    sizes: ["One Size (Multi-layered set)"],
+    images: [
+      "/assets/accessory_layered_coin_necklace.jpg"
+    ],
+    fabricInfo: "18k Gold Plated Brass. Non-tarnish coating. Handcrafted details.",
+    rating: 4.9,
+    reviews: []
+  },
+  {
+    id: "geneva-diamond-datejust-watch",
+    name: "Geneva Diamond Datejust Watch",
+    price: 290,
+    category: "accessories",
+    description: "A masterpiece of silent luxury, featuring a polished steel and white-gold case with a diamond-encrusted bezel. The grey sunray dial is complete with elegant Roman numerals and a magnifying date window.",
+    color: "Silver & Diamond",
+    colors: [
+      { name: "Silver", hex: "#c0c0c0" }
+    ],
+    sizes: ["One Size (Adjustable links)"],
+    images: [
+      "/assets/accessory_diamond_rolex_watch.jpg"
+    ],
+    fabricInfo: "Premium Stainless Steel and White Gold plating. High-grade synthetic diamonds. Automatic movement.",
+    rating: 5.0,
+    reviews: []
+  },
+  {
+    id: "margot-crochet-pearl-hairband",
+    name: "Margot Crochet Pearl Hairband",
+    price: 45,
+    category: "accessories",
+    description: "A vintage bohemian-inspired hairband hand-crocheted in rich chestnut brown. Delicately adorned with miniature fresh-water style pearls and tiny gold hoop rings woven into the mesh.",
+    color: "Chestnut Brown",
+    colors: [
+      { name: "Chestnut Brown", hex: "#5c4033" }
+    ],
+    sizes: ["One Size (Stretchy)"],
+    images: [
+      "/assets/accessory_crochet_pearl_hairband.jpg"
+    ],
+    fabricInfo: "Organic cotton crochet thread, imitation pearls, gold-plated brass rings.",
+    rating: 4.8,
+    reviews: []
+  },
+  {
+    id: "sienne-liquid-gold-claw-clip",
+    name: "Sienne Liquid Gold Claw Clip",
+    price: 38,
+    category: "accessories",
+    description: "An organic, wavy claw clip crafted from high-shine gold metal. Its fluid shape resembles melted gold, holding your hair in a chic, effortless updo with premium strength.",
+    color: "Gold",
+    colors: [
+      { name: "Gold", hex: "#d4af37" }
+    ],
+    sizes: ["One Size (Medium-Large)"],
+    images: [
+      "/assets/accessory_liquid_claw_clip.jpg"
+    ],
+    fabricInfo: "Polished Gold-Plated Alloy. Strong metal spring mechanism.",
+    rating: 4.9,
+    reviews: []
+  },
+  {
+    id: "florence-textured-flower-earrings",
+    name: "Florence Textured Flower Earrings",
+    price: 55,
+    category: "accessories",
+    description: "Stunning textured 5-petal flower stud earrings crafted with a delicate brushed gold finish. Inspired by spring blooms in the South of France, they add an elegant touch of romantic femininity.",
+    color: "Gold",
+    colors: [
+      { name: "Gold", hex: "#d4af37" }
+    ],
+    sizes: ["One Size"],
+    images: [
+      "/assets/accessory_textured_flower_earrings.jpg"
+    ],
+    fabricInfo: "18k Gold Plated Brass. Sterling silver posts (hypoallergenic).",
+    rating: 4.9,
+    reviews: []
   }
 ];
 
