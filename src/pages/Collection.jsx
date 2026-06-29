@@ -74,7 +74,7 @@ const Collection = () => {
       'accessories': {
         title: 'FINE ACCESSORIES',
         description: 'Cat-eye tortoiseshell acetates and thick 18k ribbed gold jewelry highlights.',
-        banner: '/assets/luxury_accessory.png'
+        banner: '/assets/accessories_collection_banner.jpg'
       },
       'new-arrivals': {
         title: 'NEW ARRIVALS',
