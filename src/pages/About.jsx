@@ -138,10 +138,10 @@ const About = () => {
           </p>
           <div className="pt-4">
             <Link 
-              to="/collection/new-arrivals" 
+              to="/collection/shoes" 
               className="luxury-btn-alt border-luxury-ivory bg-luxury-ivory text-luxury-black hover:bg-transparent hover:text-luxury-ivory text-xs flex items-center space-x-1.5"
             >
-              <span>Explore New Arrivals</span>
+              <span>Explore Shoes</span>
               <ArrowRight size={14} />
             </Link>
           </div>

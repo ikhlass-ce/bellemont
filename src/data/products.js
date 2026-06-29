@@ -988,6 +988,43 @@ const rawProducts = [
     rating: 4.8,
     reviews: []
   },
+  {
+    id: "st-tropez-loafers",
+    name: "St. Tropez Suede Loafers",
+    price: 145,
+    category: "shoes",
+    description: "Sleek, unstructured loafers crafted from butter-soft suede with a collapsible back. Features a low stacked heel and refined moc-toe stitching. The epitome of Riviera ease.",
+    color: "Taupe Suede",
+    colors: [
+      { name: "Taupe Suede", hex: "#bda691" },
+      { name: "Nero Black", hex: "#111111" }
+    ],
+    sizes: ["37", "38", "39", "40", "41"],
+    images: [
+      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=1000&q=80"
+    ],
+    fabricInfo: "100% Calfskin Suede upper. Handmade in Italy.",
+    rating: 4.8,
+    reviews: []
+  },
+  {
+    id: "monaco-sneakers",
+    name: "Monaco Leather Sneakers",
+    price: 130,
+    category: "shoes",
+    description: "Minimalist low-top sneakers in clean white calfskin leather. Embellished with subtle gold foil branding on the heel and tongue. Set on a durable stitched rubber cupsole.",
+    color: "Classic White",
+    colors: [
+      { name: "Classic White", hex: "#ffffff" }
+    ],
+    sizes: ["36", "37", "38", "39", "40", "41"],
+    images: [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=1000&q=80"
+    ],
+    fabricInfo: "100% Full-grain Calfskin Leather. Margom rubber sole.",
+    rating: 4.9,
+    reviews: []
+  },
 
   // BAGS
   {

@@ -84,7 +84,7 @@ const Navbar = () => {
 
   const primaryCategories = [
     { name: 'Women', path: '/collection/summer-collection' },
-    { name: 'New Arrivals', path: '/collection/new-arrivals' },
+    { name: 'Shoes', path: '/collection/shoes' },
     { name: 'Dresses', path: '/collection/dresses' },
     { name: 'Skirts', path: '/collection/skirts' },
     { name: 'Trousers', path: '/collection/trousers' },
@@ -100,7 +100,6 @@ const Navbar = () => {
   const otherCategories = [
     { name: 'Linen Sets', path: '/collection/linen-sets' },
     { name: 'Shirts & Blouses', path: '/collection/shirts-blouses' },
-    { name: 'Shoes', path: '/collection/shoes' },
     { name: 'Bags', path: '/collection/bags' },
     { name: 'Best Sellers', path: '/collection/best-sellers' },
   ];

@@ -18,7 +18,7 @@ const Home = () => {
   const videoRef = useRef(null);
 
   // Curated products
-  const newArrivals = products.slice(0, 4);
+  const shoes = products.filter(p => p.category === 'shoes').slice(0, 4);
   const bestSellers = [
     products.find(p => p.id === 'venice-dress'),
     products.find(p => p.id === 'st-tropez-blazer'),
@@ -262,27 +262,27 @@ const Home = () => {
 
 
 
-      {/* 4. NEW ARRIVALS GRID */}
+      {/* 4. SHOES GRID */}
       <section className="bg-white py-24 scroll-reveal">
         <div className="max-w-7.5xl mx-auto px-6 md:px-12">
           {/* Header */}
           <div className="flex flex-col sm:flex-row justify-between items-baseline mb-12 border-b border-luxury-border pb-5 text-left">
             <div>
-              <span className="text-[10px] tracking-[0.25em] text-luxury-gold uppercase font-semibold block mb-2">CURATED NOVELTIES</span>
-              <h2 className="font-editorial text-3xl font-light text-luxury-black tracking-wide uppercase">New Arrivals</h2>
+              <span className="text-[10px] tracking-[0.25em] text-luxury-gold uppercase font-semibold block mb-2">FINE FOOTWEAR</span>
+              <h2 className="font-editorial text-3xl font-light text-luxury-black tracking-wide uppercase">Shoes</h2>
             </div>
             <Link 
-              to="/collection/new-arrivals" 
+              to="/collection/shoes" 
               className="text-xs tracking-[0.15em] uppercase text-luxury-black hover:text-luxury-gold transition-colors duration-300 flex items-center font-medium mt-4 sm:mt-0 font-sans"
             >
-              <span>View All Pieces</span>
+              <span>View All Footwear</span>
               <ArrowRight size={14} className="ml-1.5" />
             </Link>
           </div>
 
           {/* Product grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {newArrivals.map((product) => (
+            {shoes.map((product) => (
               <ProductCard 
                 key={product.id} 
                 product={product} 
