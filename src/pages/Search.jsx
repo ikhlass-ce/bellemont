@@ -107,8 +107,6 @@ const Search = () => {
     { value: 'dresses', label: 'Dresses' },
     { value: 'skirts', label: 'Skirts' },
     { value: 'trousers', label: 'Trousers' },
-    { value: 'shirts-blouses', label: 'Shirts & Blouses' },
-    { value: 'linen-sets', label: 'Linen Sets' },
     { value: 'hijabs', label: 'Hijabs' },
     { value: 'shoes', label: 'Shoes' },
     { value: 'bags', label: 'Bags' },

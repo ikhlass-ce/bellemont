@@ -96,12 +96,7 @@ const Navbar = () => {
     { name: 'Hijabs', path: '/collection/hijabs' },
   ];
 
-  const otherCategories = [
-    { name: 'Linen Sets', path: '/collection/linen-sets' },
-    { name: 'Shirts & Blouses', path: '/collection/shirts-blouses' },
-    { name: 'Bags', path: '/collection/bags' },
-    { name: 'Best Sellers', path: '/collection/best-sellers' },
-  ];
+
 
   return (
     <>
@@ -296,20 +291,7 @@ const Navbar = () => {
                 ))}
               </div>
 
-              <div className="border-t border-luxury-border my-2"></div>
 
-              <p className="text-[9px] tracking-[0.2em] text-luxury-grey uppercase font-semibold">Other Sections</p>
-              <div className="grid grid-cols-2 gap-3">
-                {otherCategories.map((item) => (
-                  <Link
-                    key={item.name}
-                    to={item.path}
-                    className="mobile-nav-link text-[11px] tracking-widest uppercase hover:text-luxury-gold transition-colors font-light"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </div>
             </div>
 
             {/* Footer banner */}

@@ -19,12 +19,6 @@ const Home = () => {
 
   // Curated products
   const shoes = products.filter(p => p.category === 'shoes').slice(0, 4);
-  const bestSellers = [
-    products.find(p => p.id === 'venice-dress'),
-    products.find(p => p.id === 'monaco-dress'),
-    products.find(p => p.id === 'crinkled-linen-cotton-hijab'),
-    products.find(p => p.id === 'signature-tote')
-  ].filter(Boolean);
 
   useEffect(() => {
     // 1. Play Campaign Video programmatically to bypass browser strict autoplay blocks
@@ -293,36 +287,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* 5. BEST SELLERS GRID */}
-      <section className="bg-white py-24 scroll-reveal border-t border-luxury-border">
-        <div className="max-w-7.5xl mx-auto px-6 md:px-12">
-          {/* Header */}
-          <div className="flex flex-col sm:flex-row justify-between items-baseline mb-12 border-b border-luxury-border pb-5 text-left">
-            <div>
-              <span className="text-[10px] tracking-[0.25em] text-luxury-gold uppercase font-semibold block mb-2">MOST COVETED STAPLES</span>
-              <h2 className="font-editorial text-3xl font-light text-luxury-black tracking-wide uppercase">Best Sellers</h2>
-            </div>
-            <Link 
-              to="/collection/best-sellers" 
-              className="text-xs tracking-[0.15em] uppercase text-luxury-black hover:text-luxury-gold transition-colors duration-300 flex items-center font-medium mt-4 sm:mt-0 font-sans"
-            >
-              <span>Explore Classics</span>
-              <ArrowRight size={14} className="ml-1.5" />
-            </Link>
-          </div>
 
-          {/* Product grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {bestSellers.map((product) => (
-              <ProductCard 
-                key={product.id} 
-                product={product} 
-                onQuickView={handleQuickView} 
-              />
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* 6. CLIENT REVIEWS */}
       <section className="bg-[#fafaf7] py-24 border-t border-b border-luxury-border scroll-reveal">

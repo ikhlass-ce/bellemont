@@ -36,16 +36,6 @@ const Collection = () => {
         description: 'Palazzo trousers, relaxed linen cuts, and pleated wool-blends for refined walking.',
         banner: '/assets/trousers_banner.jpg'
       },
-      'shirts-blouses': {
-        title: 'SHIRTS & BLOUSES',
-        description: 'Boyfriend-fit linens and high-neck mulberry silks for delicate layered luxury.',
-        banner: 'https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=1600&q=80'
-      },
-      'linen-sets': {
-        title: 'RIVIERA LINEN SETS',
-        description: 'Two-piece tailored summer sets for effortless lounge coordination.',
-        banner: '/assets/hero_editorial.png'
-      },
       'hijabs': {
         title: 'PREMIUM HIJABS',
         description: 'Exquisite georgette chiffon and heavy silk-satin drapes in neutral mineral tones.',
@@ -75,11 +65,6 @@ const Collection = () => {
         title: 'SUMMER COLLECTION',
         description: 'Inspired by Positano, St. Tropez, and warm evenings in Southern Europe.',
         banner: '/assets/women_collection_banner.jpg'
-      },
-      'best-sellers': {
-        title: 'BEST SELLERS',
-        description: 'Our most coveted, signature designs. Reordered and restocked by request.',
-        banner: 'https://images.unsplash.com/photo-1596783074918-c84cb06531ca?w=1600&q=80'
       }
     };
 
@@ -96,8 +81,6 @@ const Collection = () => {
     let list = [];
     if (categorySlug === 'new-arrivals') {
       list = [...products].reverse().slice(0, 6);
-    } else if (categorySlug === 'best-sellers') {
-      list = products.filter(p => ['monaco-dress', 'crinkled-linen-cotton-hijab', 'signature-tote'].includes(p.id));
     } else if (categorySlug === 'summer-collection') {
       list = products.filter(p => 
         p.name.includes('Capri') || 
