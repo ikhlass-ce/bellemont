@@ -49,7 +49,7 @@ const Collection = () => {
       'hijabs': {
         title: 'PREMIUM HIJABS',
         description: 'Exquisite georgette chiffon and heavy silk-satin drapes in neutral mineral tones.',
-        banner: '/assets/silk_scarf.png'
+        banner: '/assets/hijabs_collection_banner.jpg'
       },
       'shoes': {
         title: 'LEATHER SHOES',
