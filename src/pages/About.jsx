@@ -134,7 +134,7 @@ const About = () => {
             Step Into Our Boutique
           </h2>
           <p className="text-xs text-luxury-grey max-w-md leading-relaxed font-light pl-1">
-            Discover a curated collection of dresses, tailored trousers, double-breasted blazers, and premium georgette chiffon hijabs.
+            Discover a curated collection of dresses, tailored trousers, premium leather shoes, and georgette chiffon hijabs.
           </p>
           <div className="pt-4">
             <Link 

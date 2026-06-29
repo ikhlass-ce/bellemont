@@ -21,7 +21,7 @@ const Home = () => {
   const shoes = products.filter(p => p.category === 'shoes').slice(0, 4);
   const bestSellers = [
     products.find(p => p.id === 'venice-dress'),
-    products.find(p => p.id === 'st-tropez-blazer'),
+    products.find(p => p.id === 'monaco-dress'),
     products.find(p => p.id === 'premium-chiffon-hijab'),
     products.find(p => p.id === 'signature-tote')
   ].filter(Boolean);

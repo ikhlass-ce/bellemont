@@ -745,51 +745,6 @@ const rawProducts = [
     ]
   },
 
-  // BLAZERS
-  {
-    id: "st-tropez-blazer",
-    name: "St. Tropez Linen Blazer",
-    price: 180,
-    category: "blazers",
-    description: "An unstructured blazer silhouette in fine washed linen. Shoulder pads for a soft lift, double breasted closure, mock horn buttons, and functional patch pockets. Pairs effortlessly with linen trousers.",
-    color: "Ivory Cream",
-    colors: [
-      { name: "Ivory Cream", hex: "#fcfaf4" },
-      { name: "Camel", hex: "#c19a6b" }
-    ],
-    sizes: ["XS", "S", "M", "L", "XL"],
-    images: [
-      "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1000&q=80",
-      "/assets/hero_editorial.png"
-    ],
-    fabricInfo: "100% Linen with 100% Cotton body lining.",
-    rating: 4.9,
-    reviews: [
-      { author: "Charlotte T.", rating: 5, comment: "A quiet luxury staple. The color is the perfect soft cream." }
-    ]
-  },
-  {
-    id: "parisienne-blazer",
-    name: "Parisienne Double-Breasted Blazer",
-    price: 220,
-    category: "blazers",
-    description: "Sharp tailoring defined by clean peak lapels, double-breasted closure, and elegant gold metallic crest buttons. Fully lined in sleek satin. Fits slim and structured.",
-    color: "Classic Black",
-    colors: [
-      { name: "Classic Black", hex: "#1a1a1a" },
-      { name: "Navy Blue", hex: "#1d2a44" }
-    ],
-    sizes: ["XS", "S", "M", "L"],
-    images: [
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=1000&q=80"
-    ],
-    fabricInfo: "70% Wool, 30% Silk. Lining: 100% Viscose Satin.",
-    rating: 5.0,
-    reviews: [
-      { author: "Gisele D.", rating: 5, comment: "Exquisite details. The buttons feel heavy and authentic. Worth every penny." }
-    ]
-  },
-
   // SHIRTS & BLOUSES
   {
     id: "sorrento-shirt",
@@ -903,48 +858,6 @@ const rawProducts = [
     rating: 5.0,
     reviews: [
       { author: "Mariam H.", rating: 5, comment: "Pure elegance. Has a beautiful weight and shine. I purchased the Champagne as well!" }
-    ]
-  },
-
-  // HEAD SCARVES
-  {
-    id: "como-silk-hair-scarf",
-    name: "Como Silk Hair Scarf",
-    price: 32,
-    category: "head-scarves",
-    description: "A square silk scarf featuring a timeless minimalist border print inspired by Italian lake estates. Can be styled around the head, neck, or tied to your handbag handle.",
-    color: "Cream & Black",
-    colors: [
-      { name: "Cream & Black", hex: "#faf9f6" }
-    ],
-    sizes: ["One Size (60cm x 60cm)"],
-    images: [
-      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=1000&q=80",
-      "/assets/silk_scarf.png"
-    ],
-    fabricInfo: "100% Silk Twill. Features hand-rolled hems.",
-    rating: 4.8,
-    reviews: []
-  },
-  {
-    id: "monaco-silk-scarf",
-    name: "Monaco Gold-Trim Scarf",
-    price: 38,
-    category: "head-scarves",
-    description: "A premium square scarf in pure silk satin. Features a sophisticated cream center outlined by navy blue and framed with a thin elegant gold chain motif. Epitomizes the French Riviera holiday aesthetic.",
-    color: "Gold Border Ivory",
-    colors: [
-      { name: "Gold Border Ivory", hex: "#f7f1e3" }
-    ],
-    sizes: ["One Size (70cm x 70cm)"],
-    images: [
-      "/assets/silk_scarf.png",
-      "/assets/luxury_accessory.png"
-    ],
-    fabricInfo: "100% Silk Satin. Lightweight with high drape.",
-    rating: 4.9,
-    reviews: [
-      { author: "Olivia S.", rating: 5, comment: "Looks so vintage and gorgeous when driving in a convertible or at the beach." }
     ]
   },
 

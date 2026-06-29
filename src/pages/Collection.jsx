@@ -36,11 +36,6 @@ const Collection = () => {
         description: 'Palazzo trousers, relaxed linen cuts, and pleated wool-blends for refined walking.',
         banner: '/assets/trousers_banner.jpg'
       },
-      'blazers': {
-        title: 'STRUCTURED BLAZERS',
-        description: 'Sharp shoulders and classic double-breasted finishes. Timeless old money statements.',
-        banner: 'https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=1600&q=80'
-      },
       'shirts-blouses': {
         title: 'SHIRTS & BLOUSES',
         description: 'Boyfriend-fit linens and high-neck mulberry silks for delicate layered luxury.',
@@ -54,11 +49,6 @@ const Collection = () => {
       'hijabs': {
         title: 'PREMIUM HIJABS',
         description: 'Exquisite georgette chiffon and heavy silk-satin drapes in neutral mineral tones.',
-        banner: '/assets/silk_scarf.png'
-      },
-      'head-scarves': {
-        title: 'COMO SILK SCARVES',
-        description: 'Chic square silk twills finished with delicate hand-rolled hems.',
         banner: '/assets/silk_scarf.png'
       },
       'shoes': {
@@ -107,17 +97,15 @@ const Collection = () => {
     if (categorySlug === 'new-arrivals') {
       list = [...products].reverse().slice(0, 6);
     } else if (categorySlug === 'best-sellers') {
-      list = products.filter(p => ['monaco-dress', 'st-tropez-blazer', 'premium-chiffon-hijab', 'signature-tote'].includes(p.id));
+      list = products.filter(p => ['monaco-dress', 'premium-chiffon-hijab', 'signature-tote'].includes(p.id));
     } else if (categorySlug === 'summer-collection') {
       list = products.filter(p => 
         p.name.includes('Capri') || 
         p.name.includes('Sorrento') || 
-        p.name.includes('St. Tropez') || 
         p.name.includes('Riviera') || 
         p.name.includes('Palermo') || 
         p.fabricInfo.includes('Linen') || 
-        p.fabricInfo.includes('Silk') ||
-        p.category === 'head-scarves'
+        p.fabricInfo.includes('Silk')
       );
     } else {
       list = products.filter(p => p.category === categorySlug);

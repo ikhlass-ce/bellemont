@@ -94,7 +94,6 @@ const Navbar = () => {
 
   const modestyCategories = [
     { name: 'Hijabs', path: '/collection/hijabs' },
-    { name: 'Head Scarves', path: '/collection/head-scarves' },
   ];
 
   const otherCategories = [
