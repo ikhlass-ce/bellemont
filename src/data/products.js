@@ -860,6 +860,33 @@ const rawProducts = [
       { author: "Mariam H.", rating: 5, comment: "Pure elegance. Has a beautiful weight and shine. I purchased the Champagne as well!" }
     ]
   },
+  {
+    id: "crinkled-linen-cotton-hijab",
+    name: "Riviera Crinkled Linen-Cotton Hijab",
+    price: 35,
+    category: "hijabs",
+    description: "An incredibly soft and lightweight hijab woven in a premium linen-cotton blend. Features a delicate, organic crinkled texture that ensures a secure, non-slip fit and offers a gorgeous voluminous drape. Perfectly finished with light fringe edges.",
+    color: "Multi-tonal Earthy",
+    colors: [
+      { name: "Sienna Earth", hex: "#a0522d" },
+      { name: "Espresso Brown", hex: "#3e2723" },
+      { name: "Soft Sage", hex: "#c4cbbe" },
+      { name: "Oatmeal Beige", hex: "#eae0d5" }
+    ],
+    sizes: ["Standard (185cm x 75cm)"],
+    images: [
+      "/assets/hijab_crinkled_stack.jpg",
+      "/assets/hijab_crinkled_brown_denim.jpg",
+      "/assets/hijab_crinkled_brown_cafe.jpg",
+      "/assets/hijab_crinkled_sage_car.jpg"
+    ],
+    fabricInfo: "55% Cotton, 45% Organic Linen. Breathable crinkled weave. Hand wash cold.",
+    rating: 4.9,
+    reviews: [
+      { author: "Fatima Z.", rating: 5, comment: "I love the texture! It stays in place perfectly without a single pin, and the crinkled look is so chic." },
+      { author: "Hanan E.", rating: 5, comment: "Perfect summer hijab. Breathable, textured, and feels incredibly premium." }
+    ]
+  },
 
   // SHOES
   {
