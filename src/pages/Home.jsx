@@ -22,7 +22,7 @@ const Home = () => {
   const bestSellers = [
     products.find(p => p.id === 'venice-dress'),
     products.find(p => p.id === 'monaco-dress'),
-    products.find(p => p.id === 'premium-chiffon-hijab'),
+    products.find(p => p.id === 'crinkled-linen-cotton-hijab'),
     products.find(p => p.id === 'signature-tote')
   ].filter(Boolean);
 

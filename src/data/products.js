@@ -813,54 +813,6 @@ const rawProducts = [
 
   // HIJABS
   {
-    id: "premium-chiffon-hijab",
-    name: "Premium Georgette Chiffon Hijab",
-    price: 29,
-    category: "hijabs",
-    description: "An elegant, lightweight georgette chiffon hijab with a delicate textured grip. Provides beautiful drape and structured folds that stay in place throughout the day. Finished with seamless baby hems.",
-    color: "Sand",
-    colors: [
-      { name: "Sand", hex: "#e0d8cc" },
-      { name: "Ivory Cream", hex: "#fbf9f5" },
-      { name: "Taupe", hex: "#a39c93" },
-      { name: "Soft Sage", hex: "#c4cbbe" }
-    ],
-    sizes: ["Standard (180cm x 75cm)"],
-    images: [
-      "/assets/silk_scarf.png",
-      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=1000&q=80"
-    ],
-    fabricInfo: "100% Georgette Polyester. Matte finish with slight texture for grip.",
-    rating: 4.9,
-    reviews: [
-      { author: "Yasmin A.", rating: 5, comment: "The quality is unmatched. The drape is incredibly luxurious, and it stays put all day." },
-      { author: "Lina F.", rating: 5, comment: "Gorgeous sand shade. Matches all my linen outfits perfectly." }
-    ]
-  },
-  {
-    id: "luxury-silk-hijab",
-    name: "Luxury Silk-Satin Hijab",
-    price: 45,
-    category: "hijabs",
-    description: "Crafted in a premium silk and viscose blend, this hijab has a stunning luster on one side and a textured matte finish on the other to prevent slipping. Absolute luxury for formal settings.",
-    color: "Ivory",
-    colors: [
-      { name: "Ivory", hex: "#fafaf4" },
-      { name: "Champagne", hex: "#eddcca" },
-      { name: "Black", hex: "#111111" }
-    ],
-    sizes: ["Standard (180cm x 70cm)"],
-    images: [
-      "/assets/silk_scarf.png",
-      "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?w=1000&q=80"
-    ],
-    fabricInfo: "60% Silk, 40% Viscose. Hand wash only.",
-    rating: 5.0,
-    reviews: [
-      { author: "Mariam H.", rating: 5, comment: "Pure elegance. Has a beautiful weight and shine. I purchased the Champagne as well!" }
-    ]
-  },
-  {
     id: "crinkled-linen-cotton-hijab",
     name: "Riviera Crinkled Linen-Cotton Hijab",
     price: 35,

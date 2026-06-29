@@ -97,7 +97,7 @@ const Collection = () => {
     if (categorySlug === 'new-arrivals') {
       list = [...products].reverse().slice(0, 6);
     } else if (categorySlug === 'best-sellers') {
-      list = products.filter(p => ['monaco-dress', 'premium-chiffon-hijab', 'signature-tote'].includes(p.id));
+      list = products.filter(p => ['monaco-dress', 'crinkled-linen-cotton-hijab', 'signature-tote'].includes(p.id));
     } else if (categorySlug === 'summer-collection') {
       list = products.filter(p => 
         p.name.includes('Capri') || 
