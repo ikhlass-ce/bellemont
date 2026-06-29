@@ -815,7 +815,7 @@ const rawProducts = [
   {
     id: "crinkled-linen-cotton-hijab",
     name: "Riviera Crinkled Linen-Cotton Hijab",
-    price: 35,
+    price: 20,
     category: "hijabs",
     description: "An incredibly soft and lightweight hijab woven in a premium linen-cotton blend. Features a delicate, organic crinkled texture that ensures a secure, non-slip fit and offers a gorgeous voluminous drape. Perfectly finished with light fringe edges.",
     color: "Multi-tonal Earthy",
@@ -842,7 +842,7 @@ const rawProducts = [
   {
     id: "midnight-soft-modal-hijab",
     name: "Midnight Soft Modal Hijab",
-    price: 38,
+    price: 20,
     category: "hijabs",
     description: "An ultra-soft and luxurious modal hijab from our exclusive Midnight collection. Woven in breathable, cloud-like modal fabric with a gorgeous fluid drape and elegant sheen. Detailed with custom tie-dye colorways.",
     color: "Burgundy",
@@ -861,6 +861,28 @@ const rawProducts = [
     rating: 4.9,
     reviews: [
       { author: "Sara L.", rating: 5, comment: "This is the softest modal hijab I have ever owned! The Burgundy shade looks so deep and rich." }
+    ]
+  },
+  {
+    id: "paisley-patterned-hijab",
+    name: "Classic Paisley Silk-Blend Shawl",
+    price: 20,
+    category: "hijabs",
+    description: "A gorgeous, traditional paisley patterned shawl in a soft, premium silk-viscose blend. Decorated with complex, detailed jacquard-woven paisley motifs. Perfect for adding a rich, vintage statement to neutral tones.",
+    color: "Burgundy / Green",
+    colors: [
+      { name: "Burgundy / Gold", hex: "#800020" },
+      { name: "Olive / Gold", hex: "#556b2f" }
+    ],
+    sizes: ["Standard (180cm x 75cm)"],
+    images: [
+      "/assets/hijab_paisley_burgundy.jpg",
+      "/assets/hijab_paisley_green.jpg"
+    ],
+    fabricInfo: "70% Viscose, 30% Silk. Intricate jacquard paisley weave. Hand wash cold.",
+    rating: 4.9,
+    reviews: [
+      { author: "Laila K.", rating: 5, comment: "Absolutely stunning print. The fabric is soft and drapes beautifully." }
     ]
   },
 
