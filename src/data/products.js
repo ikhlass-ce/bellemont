@@ -950,79 +950,93 @@ const rawProducts = [
 
   // SHOES
   {
-    id: "capri-sandals",
-    name: "Capri Leather Sandals",
-    price: 110,
+    id: "neous-white-slingbacks",
+    name: "Neous Leather Slingback Heels",
+    price: 290,
     category: "shoes",
-    description: "Minimalist flat sandals handmade with premium vachetta leather straps. Features a subtle gold buckle closure, cushioned footbed, and durable leather outsole. Pairs with anything from denim to maxi dresses.",
-    color: "Tan Leather",
+    description: "Pointed-toe slingback pumps in premium ivory calfskin leather. Featuring delicate adjustable ankle straps, a low kitten heel, and cushioned leather insoles. Effortless refined luxury.",
+    color: "Ivory White",
     colors: [
-      { name: "Tan Leather", hex: "#b87d4b" },
-      { name: "Nero Black", hex: "#111111" }
+      { name: "Ivory White", hex: "#faf9f6" }
+    ],
+    sizes: ["36", "37", "38", "39", "40"],
+    images: [
+      "/assets/shoe_white_slingback.jpg"
+    ],
+    fabricInfo: "100% Calfskin Nappa Leather. Handcrafted in Italy.",
+    rating: 4.9,
+    reviews: []
+  },
+  {
+    id: "suede-brown-slingbacks",
+    name: "St. Tropez Suede Slingbacks",
+    price: 125,
+    category: "shoes",
+    description: "Elegant dark brown suede pointed-toe pumps featuring a delicate slingback design and a covered accent buckle at the vamp. Set on a slender kitten heel.",
+    color: "Espresso Brown",
+    colors: [
+      { name: "Espresso Brown", hex: "#3e2723" }
     ],
     sizes: ["36", "37", "38", "39", "40", "41"],
     images: [
-      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=1000&q=80",
-      "https://images.unsplash.com/photo-1560343090-f0409e92791a?w=1000&q=80"
+      "/assets/shoe_brown_suede_pump.jpg"
     ],
-    fabricInfo: "100% Calfskin Vachetta Leather upper and lining. Rubber traction heel patch.",
+    fabricInfo: "100% Kid Suede upper, leather lining and sole.",
+    rating: 4.8,
+    reviews: []
+  },
+  {
+    id: "cream-cross-straps",
+    name: "Milan Cross-Strap Slingbacks",
+    price: 145,
+    category: "shoes",
+    description: "Pointed-toe cream leather kitten heels featuring two contrasting black criss-cross buckled instep straps. Styled with a delicate slingback closure.",
+    color: "Cream / Black",
+    colors: [
+      { name: "Cream / Black", hex: "#faf0e6" }
+    ],
+    sizes: ["36", "37", "38", "39", "40"],
+    images: [
+      "/assets/shoe_cream_cross_strap.jpg"
+    ],
+    fabricInfo: "100% Italian Calf Leather. Padded leather footbed.",
     rating: 4.7,
     reviews: []
   },
   {
-    id: "milan-slides",
-    name: "Milan Leather Slides",
-    price: 95,
+    id: "brown-patent-mules",
+    name: "Monaco Patent Leather Mules",
+    price: 180,
     category: "shoes",
-    description: "Slip-on leather mules defined by a clean, geometric cut-out band. Perfect for quick yet elegant departures. Soft padded leather details support standard steps comfortably.",
-    color: "Cream Ivory",
+    description: "Sleek pointed-toe slip-on mules in rich chestnut brown patent leather. Elevated by a modest stiletto heel for a polished, modern silhouette.",
+    color: "Chestnut Brown",
     colors: [
-      { name: "Cream Ivory", hex: "#faf6ed" },
-      { name: "Black", hex: "#111111" }
+      { name: "Chestnut Brown", hex: "#5d4037" }
     ],
     sizes: ["36", "37", "38", "39", "40"],
     images: [
-      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=1000&q=80"
+      "/assets/shoe_brown_patent_mule.jpg"
     ],
-    fabricInfo: "100% Italian Nappa Leather. Handcrafted in Tuscany.",
+    fabricInfo: "Premium Patent Calfskin. Handcrafted in Spain.",
     rating: 4.8,
     reviews: []
   },
   {
-    id: "st-tropez-loafers",
-    name: "St. Tropez Suede Loafers",
-    price: 145,
+    id: "brown-strappy-sandals",
+    name: "Capri Strappy Heeled Sandals",
+    price: 110,
     category: "shoes",
-    description: "Sleek, unstructured loafers crafted from butter-soft suede with a collapsible back. Features a low stacked heel and refined moc-toe stitching. The epitome of Riviera ease.",
-    color: "Taupe Suede",
+    description: "Minimalist dark brown leather sandals featuring slender crossover straps and an adjustable ankle buckle. Elevated by a classic mid-height kitten heel.",
+    color: "Dark Chocolate",
     colors: [
-      { name: "Taupe Suede", hex: "#bda691" },
-      { name: "Nero Black", hex: "#111111" }
-    ],
-    sizes: ["37", "38", "39", "40", "41"],
-    images: [
-      "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=1000&q=80"
-    ],
-    fabricInfo: "100% Calfskin Suede upper. Handmade in Italy.",
-    rating: 4.8,
-    reviews: []
-  },
-  {
-    id: "monaco-sneakers",
-    name: "Monaco Leather Sneakers",
-    price: 130,
-    category: "shoes",
-    description: "Minimalist low-top sneakers in clean white calfskin leather. Embellished with subtle gold foil branding on the heel and tongue. Set on a durable stitched rubber cupsole.",
-    color: "Classic White",
-    colors: [
-      { name: "Classic White", hex: "#ffffff" }
+      { name: "Dark Chocolate", hex: "#2d1a10" }
     ],
     sizes: ["36", "37", "38", "39", "40", "41"],
     images: [
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=1000&q=80"
+      "/assets/shoe_brown_strappy_sandals.jpg"
     ],
-    fabricInfo: "100% Full-grain Calfskin Leather. Margom rubber sole.",
-    rating: 4.9,
+    fabricInfo: "100% Genuine Bovine Leather.",
+    rating: 4.7,
     reviews: []
   },
 
