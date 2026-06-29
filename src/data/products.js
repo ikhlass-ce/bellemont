@@ -839,6 +839,30 @@ const rawProducts = [
       { author: "Hanan E.", rating: 5, comment: "Perfect summer hijab. Breathable, textured, and feels incredibly premium." }
     ]
   },
+  {
+    id: "midnight-soft-modal-hijab",
+    name: "Midnight Soft Modal Hijab",
+    price: 38,
+    category: "hijabs",
+    description: "An ultra-soft and luxurious modal hijab from our exclusive Midnight collection. Woven in breathable, cloud-like modal fabric with a gorgeous fluid drape and elegant sheen. Detailed with custom tie-dye colorways.",
+    color: "Burgundy",
+    colors: [
+      { name: "Burgundy", hex: "#58111a" },
+      { name: "Mocha", hex: "#bfa38a" },
+      { name: "Cafe", hex: "#635048" },
+      { name: "Grey", hex: "#4d4e50" }
+    ],
+    sizes: ["Standard (180cm x 75cm)"],
+    images: [
+      "/assets/hijab_modal_stack.jpg",
+      "/assets/hijab_modal_burgundy_model.jpg"
+    ],
+    fabricInfo: "100% Premium Modal. Soft, lightweight tie-dye fabric. Hand wash cold.",
+    rating: 4.9,
+    reviews: [
+      { author: "Sara L.", rating: 5, comment: "This is the softest modal hijab I have ever owned! The Burgundy shade looks so deep and rich." }
+    ]
+  },
 
   // SHOES
   {
