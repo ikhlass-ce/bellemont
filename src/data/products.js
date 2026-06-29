@@ -885,6 +885,28 @@ const rawProducts = [
       { author: "Laila K.", rating: 5, comment: "Absolutely stunning print. The fabric is soft and drapes beautifully." }
     ]
   },
+  {
+    id: "lace-trimmed-evening-hijab",
+    name: "Classic Lace Evening Hijab",
+    price: 20,
+    category: "hijabs",
+    description: "An elegant, lightweight evening hijab detailed with premium, delicate scalloped floral lace trim. Crafted from breathable, soft fluid fabric that drapes effortlessly for formal occasions.",
+    color: "Black / Cinnamon",
+    colors: [
+      { name: "Classic Black", hex: "#111111" },
+      { name: "Cinnamon Brown", hex: "#8b5a2b" }
+    ],
+    sizes: ["Standard (180cm x 75cm)"],
+    images: [
+      "/assets/hijab_lace_black.jpg",
+      "/assets/hijab_lace_brown.jpg"
+    ],
+    fabricInfo: "Soft polyester-viscose blend. Scalloped lace border details. Hand wash cold.",
+    rating: 4.9,
+    reviews: [
+      { author: "Amira J.", rating: 5, comment: "Absolutely stunning! The lace detail is extremely delicate and gives a very sophisticated look." }
+    ]
+  },
 
   // SHOES
   {
