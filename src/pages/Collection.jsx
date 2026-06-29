@@ -64,7 +64,7 @@ const Collection = () => {
       'shoes': {
         title: 'LEATHER SHOES',
         description: 'Fine flat vachetta sandals and custom Tuscan-crafted slides.',
-        banner: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=1600&q=80'
+        banner: '/assets/shoes_collection_banner.jpg'
       },
       'bags': {
         title: 'LUXURY BAGS',
