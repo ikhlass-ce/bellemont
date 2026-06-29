@@ -84,7 +84,7 @@ const Collection = () => {
       'summer-collection': {
         title: 'SUMMER COLLECTION',
         description: 'Inspired by Positano, St. Tropez, and warm evenings in Southern Europe.',
-        banner: '/assets/collection_summer.png'
+        banner: '/assets/women_collection_banner.jpg'
       },
       'best-sellers': {
         title: 'BEST SELLERS',
