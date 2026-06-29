@@ -1039,6 +1039,96 @@ const rawProducts = [
     rating: 4.7,
     reviews: []
   },
+  {
+    id: "brown-satin-bow-mules",
+    name: "Monaco Satin Bow Mules",
+    price: 160,
+    category: "shoes",
+    description: "Luxurious pointed-toe mules in deep espresso brown satin. Features a delicate, elegant bow accent on the front strap. Set on a slim, comfortable stiletto heel.",
+    color: "Espresso Brown",
+    colors: [
+      { name: "Espresso Brown", hex: "#3e2723" }
+    ],
+    sizes: ["36", "37", "38", "39", "40"],
+    images: [
+      "/assets/shoe_brown_satin_mules.jpg"
+    ],
+    fabricInfo: "Premium Silk Satin upper, leather lining.",
+    rating: 4.8,
+    reviews: []
+  },
+  {
+    id: "black-canvas-hightops",
+    name: "Classic Canvas High-Top Sneakers",
+    price: 80,
+    category: "shoes",
+    description: "Timeless black canvas high-top sneakers with contrasting white stitching, vulcanized white rubber sole, and the iconic star ankle patch.",
+    color: "Classic Black / White",
+    colors: [
+      { name: "Classic Black / White", hex: "#000000" }
+    ],
+    sizes: ["36", "37", "38", "39", "40", "41", "42"],
+    images: [
+      "/assets/shoe_black_converse_hightops.jpg"
+    ],
+    fabricInfo: "100% Cotton Canvas upper, rubber outsole.",
+    rating: 4.9,
+    reviews: []
+  },
+  {
+    id: "burgundy-samba-sneakers",
+    name: "Samba Leather Sneakers - Burgundy Edition",
+    price: 115,
+    category: "shoes",
+    description: "Low-profile retro sneakers in rich burgundy leather with white leather stripes, gold foil branding, and a durable rubber outsole.",
+    color: "Burgundy / White",
+    colors: [
+      { name: "Burgundy / White", hex: "#800020" }
+    ],
+    sizes: ["36", "37", "38", "39", "40", "41"],
+    images: [
+      "/assets/shoe_burgundy_adidas_samba.jpg"
+    ],
+    fabricInfo: "Premium leather and suede upper. Gum rubber sole.",
+    rating: 4.9,
+    reviews: []
+  },
+  {
+    id: "burgundy-patent-slingbacks",
+    name: "Minka Patent Bow Slingbacks",
+    price: 155,
+    category: "shoes",
+    description: "Refined square-toe slingbacks crafted in high-shine wine red patent leather. Embellished with a delicate flat bow on the toe box. Features a comfortable low block heel.",
+    color: "Wine Red",
+    colors: [
+      { name: "Wine Red", hex: "#722f37" }
+    ],
+    sizes: ["36", "37", "38", "39", "40"],
+    images: [
+      "/assets/shoe_burgundy_patent_slingbacks.jpg"
+    ],
+    fabricInfo: "100% Patent Calfskin Leather. Handcrafted.",
+    rating: 4.8,
+    reviews: []
+  },
+  {
+    id: "white-samba-sneakers",
+    name: "Samba Vegan Sneakers - Classic White",
+    price: 110,
+    category: "shoes",
+    description: "The iconic low-top silhouette in white vegan leather, detailed with black stripes, gray suede toe cap overlay, and the classic rubber gum sole.",
+    color: "White / Black",
+    colors: [
+      { name: "White / Black", hex: "#ffffff" }
+    ],
+    sizes: ["36", "37", "38", "39", "40", "41", "42"],
+    images: [
+      "/assets/shoe_white_adidas_samba.jpg"
+    ],
+    fabricInfo: "100% Vegan Leather upper. Gum rubber outsole.",
+    rating: 4.9,
+    reviews: []
+  },
 
   // BAGS
   {
